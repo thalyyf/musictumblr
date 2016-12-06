@@ -1,0 +1,99 @@
+#playerW{width:300px;left:0px !important;bottom:0px !important;background:url(http://goo.gl/lPP8t7); background-position:top !important; background-repeat:no-repeat !important; position:fixed !important;cursor:url('http://goo.gl/yxJtw9'), auto !important;-ms-animation:bounceInLeft 14s; -moz-animation:bounceInLeft 14s; -webkit-animation:bounceInLeft 14s;} @-webkit-keyframes bounceInLeft {0%, 60%, 75%, 90%, 100% {-webkit-transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000); transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);} 0% {opacity: 0; -webkit-transform: translate3d(-3000px, 0, 0); transform: translate3d(-3000px, 0, 0);} 60% {opacity: 1; -webkit-transform: translate3d(25px, 0, 0); transform: translate3d(25px, 0, 0);} 75% {-webkit-transform: translate3d(-10px, 0, 0); transform: translate3d(-10px, 0, 0);} 90% {-webkit-transform: translate3d(5px, 0, 0); transform: translate3d(5px, 0, 0);} 100% {-webkit-transform: none; transform: none;} 0%, 60%, 75%, 90%, 100% {-webkit-transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000); transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);} 0% {opacity: 0; -webkit-transform: translate3d(-3000px, 0, 0); -ms-transform: translate3d(-3000px, 0, 0); transform: translate3d(-3000px, 0, 0);} 60% {opacity: 1; -webkit-transform: translate3d(25px, 0, 0); -ms-transform: translate3d(25px, 0, 0); transform: translate3d(25px, 0, 0);} 75% {-webkit-transform: translate3d(-10px, 0, 0); -ms-transform: translate3d(-10px, 0, 0); transform: translate3d(-10px, 0, 0);} 90% {-webkit-transform: translate3d(5px, 0, 0); -ms-transform: translate3d(5px, 0, 0); transform: translate3d(5px, 0, 0);} 100% {-webkit-transform: none; -ms-transform: none; transform: none;};}
+#player #miniBaseCenter{width:300px; height:25px; left:30px;z-index:0; position:absolute; background:url(); background-position: bottom !important; background-repeat: repeat-x !important;cursor:url('http://goo.gl/yxJtw9'), auto !important;}
+
+#player,#player a{ color:#f84cd3; }
+#player .mainImage{ background:url();}
+
+#player #baseLeft{ width:93px;cursor:url('http://goo.gl/yxJtw9'), auto !important;}
+#player #baseRight{ width:145px;cursor:url('http://goo.gl/yxJtw9'), auto !important;}
+#player .button{width:22px;}
+#player #play{background:url(http://goo.gl/XASN1w)!important;z-index:999; cursor:url('http://goo.gl/V6wcWX'), auto !important;}
+#player #pause{background:url(http://goo.gl/F990UG)!important;z-index:999; cursor:url('http://goo.gl/V6wcWX'), auto !important;}
+#player #play,#player #pause{ left:18px; width:22px !important; top:4px !important;opacity:1;transition: all 0.3s ease-out;transition:0.2s;-webkit-transition:all 0.3s ease-out;-moz-transition:all 0.3s ease-out;transition:all 0.3s ease-out;}
+#player:hover #play,#player:hover #pause{left:32px;opacity:1;transition: all 0.3s ease-out;transition:0.2s;-webkit-transition:all 0.3s ease-out;-moz-transition:all 0.3s ease-out;transition:all 0.3s ease-out;-webkit-transition-delay:.6s; -moz-transition-delay:.6s; transition-delay:.6s;}
+#player #previous{left:-999999px; width:22px !important; top:4px !important;background:url()!important; cursor:url('http://goo.gl/V6wcWX'), auto !important;}
+#player #next{left:32px;opacity:0; width:22px !important; top:4px !important;background:url(http://goo.gl/78l9ma)!important; cursor:url('http://goo.gl/V6wcWX'), auto !important;}
+#player:hover #next{left:46px;opacity:1;transition: all 0.3s ease-out;transition:0.2s;-webkit-transition:all 0.3s ease-out;-moz-transition:all 0.3s ease-out;transition:all 0.3s ease-out;-webkit-transition-delay:.9s; -moz-transition-delay:.9s; transition-delay:.9s;}
+#player #jp-title{ left:-999999px; width:90px;cursor:url('http://goo.gl/yxJtw9'), auto !important;}
+#player #title{ left:-999999px;width:90px;white-space: nowrap; text-overflow: ellipsis; overflow: hidden;cursor:url('http://goo.gl/yxJtw9'), auto !important;}
+#player #tooltip{ left:-999999px;cursor:url('http://goo.gl/yxJtw9'), auto !important;}
+#player #timer{ left:-999999px;display:none; cursor:url('http://goo.gl/yxJtw9'), auto !important;}
+#player #list{left:6px !important;opacity:0; width:15px !important;height:15px !important;top:4px !important;background:url(http://goo.gl/r4Mb2P)!important; cursor:url('http://goo.gl/V6wcWX'), auto !important;}
+#player:hover #list{left:18px !important;opacity:1;transition: all 0.3s ease-out;transition:0.2s;-webkit-transition:all 0.3s ease-out;-moz-transition:all 0.3s ease-out;transition:all 0.3s ease-out;-webkit-transition-delay:.3s; -moz-transition-delay:.3s; transition-delay:.3s;}
+
+#player #repeatButton a, #player #repeatOnceButton a, 
+#player #repeatAllButton a, #player #shuffleButtonOff a,  #player #shuffleButtonOn a {background-image:url('');background-repeat:no-repeat;display: block;width: 22px;height: 25px;outline: 0;}
+
+#player #repeatButton {left:-999999px; position:absolute; z-index:9;}
+#player #repeatButton a {background-position:none !important;}
+#player #repeatButton a:active {background-position:none !important;}
+
+#player #repeatOnceButton {left:-999999px; position:absolute; z-index:9;}
+#player #repeatOnceButton a {background-position:none !important;}
+#player #repeatOnceButton a:active {background-position:none !important;}
+
+#player #repeatAllButton {left:-999999px; position:absolute; z-index:9;}
+#player #repeatAllButton a {background-position:none !important;}
+#player #repeatAllButton a:active {background-position:none !important;}
+
+#player #shuffleButtonOff {left:-999999px; position:absolute; z-index:9;}
+#player #shuffleButtonOff a {background-position:none !important;}
+#player #shuffleButtonOff a:active {background-position:-66px -25px !important;}
+
+#player #shuffleButtonOn {left:-999999px; position:absolute; z-index:9;}
+#player #shuffleButtonOn a {background-position:none !important;}
+#player #shuffleButtonOn a:active {background-position:none !important;}
+
+#player #seeker{ right:316px; display:none;}
+#player #seekerBase{ border-color:#000; }
+#player #seekerBuffered{ background-color:#000; }
+#player #seekerSliderBase{ background-color:#000; }
+
+#player #volume{ width:75px; left:-999999px; }
+#player #volumeSlider{ width:15px; background:url(); }
+
+#playlist{ border-color:transparent !important; color:#000000;opacity:1;cursor:url('http://goo.gl/yxJtw9'), auto !important;}
+
+#playlist .module{ border-color:transparent !important; color:#000000;opacity:1;cursor:url('http://goo.gl/yxJtw9'), auto !important;}
+
+@import url(https://fonts.googleapis.com/css?family=Indie+Flower);
+#playlist h3{ background-color:transparent;height:50px !important; background-repeat: repeat-x !important; color:transparent !important;font-family: 'Indie Flower', cursive;border-color:transparent !important; font-size: 0px;line-height: 18px;cursor:url('http://goo.gl/yxJtw9'), auto !important;}
+
+#playlist .items{font-size: 10px !important; font-family:Arial !important;list-style-type:square !important;cursor:url('http://goo.gl/yxJtw9'), auto !important;}
+
+#playlist .item{font-size: 10px !important; font-family:Arial !important;margin:0 !important;padding:6px 5px 6px 5px !important;cursor:url('http://goo.gl/yxJtw9'), auto !important;}
+
+#playlist .even{background-color:transparent !important;cursor:url('http://goo.gl/yxJtw9'), auto !important;}
+
+#playlist .odd{ background-color:transparent !important;cursor:url('http://goo.gl/yxJtw9'), auto !important;}
+
+#playlist .focus{ background-color:transparent !important;font-weight: bold;padding-left:23px !important;background:url(http://goo.gl/DJQLTB) !important;background-repeat:no-repeat !important;cursor:url('http://goo.gl/yxJtw9'), auto !important;}
+
+#playlistContainer {top:50px !important;}
+
+/* Below CSS are for Retina */
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+       only screen and (min--moz-device-pixel-ratio: 2),
+       only screen and (-o-min-device-pixel-ratio: 2/1),
+       only screen and (-ms-min-device-pixel-ratio: 2),
+       only screen and (min-device-pixel-ratio: 2) {
+
+       	#player #repeatButton a, #player #repeatOnceButton a, 
+		#player #repeatAllButton a, #player #shuffleButtonOff a,  #player #shuffleButtonOn a  {
+                background: url() no-repeat;
+                background-size: 110px 50px;
+            }
+        #player #play  {
+            background: url() no-repeat;
+            background-size: 23px 50px;
+        }
+        #player .mainImage  {
+            background: url() no-repeat;
+            background-size: 450px 50px;
+        }
+        #player #miniBaseCenter, #player #volumeSlider  {
+            background: url() no-repeat;
+            background-size: 14px 50px;
+        }
+}
