@@ -57,7 +57,7 @@
 #playlist .module{ border-color:transparent !important; color:#000000;opacity:1;cursor:url('http://goo.gl/yxJtw9'), auto !important;}
 
 @import url(https://fonts.googleapis.com/css?family=Indie+Flower);
-#playlist h3{ background:url(https://monitoring.mesalabs.com/wp-content/uploads/sites/32/2013/10/cloud-bg.jpg);height:50px !important; background-repeat: repeat-x !important; color:transparent !important;font-family: 'Indie Flower', cursive;border-color:transparent !important; font-size: 0px;line-height: 18px;cursor:url('http://goo.gl/yxJtw9'), auto !important;}
+#playlist h3{ background:url(goo.gl/eObe47);height:50px !important; background-repeat: repeat-x !important; color:transparent !important;font-family: 'Indie Flower', cursive;border-color:transparent !important; font-size: 0px;line-height: 18px;cursor:url('http://goo.gl/yxJtw9'), auto !important;}
 
 #playlist .items{font-size: 10px !important; font-family:Arial !important;list-style-type:square !important;cursor:url('http://goo.gl/yxJtw9'), auto !important;}
 
